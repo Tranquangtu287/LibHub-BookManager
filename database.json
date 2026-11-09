@@ -1,0 +1,659 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123",
+      "fullName": "Quản Trị Viên",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "khach",
+      "password": "123",
+      "fullName": "Độc Giả Khách",
+      "role": "reader"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Công nghệ thông tin"
+    },
+    {
+      "id": "2",
+      "name": "Kinh tế & Quản trị"
+    },
+    {
+      "id": "3",
+      "name": "Khoa học & Kỹ thuật"
+    },
+    {
+      "id": "4",
+      "name": "Văn học & Nghệ thuật"
+    },
+    {
+      "id": "5",
+      "name": "Tâm lý & Kỹ năng sống"
+    },
+    {
+      "id": "6",
+      "name": "Lịch sử & Triết học"
+    }
+  ],
+  "authors": [
+    {
+      "id": "1",
+      "name": "Robert C. Martin",
+      "country": "USA"
+    },
+    {
+      "id": "2",
+      "name": "Alex Banks",
+      "country": "USA"
+    },
+    {
+      "id": "3",
+      "name": "Nguyễn Nhật Ánh",
+      "country": "Việt Nam"
+    },
+    {
+      "id": "4",
+      "name": "Dale Carnegie",
+      "country": "USA"
+    },
+    {
+      "id": "5",
+      "name": "Yuval Noah Harari",
+      "country": "Israel"
+    },
+    {
+      "id": "6",
+      "name": "Eric Ries",
+      "country": "USA"
+    },
+    {
+      "id": "7",
+      "name": "Paulo Coelho",
+      "country": "Brazil"
+    },
+    {
+      "id": "8",
+      "name": "Daniel Kahneman",
+      "country": "Israel"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "categoryId": "1",
+      "price": 450000,
+      "quantity": 18,
+      "available": 13,
+      "publishedYear": 2009,
+      "description": "Hướng dẫn viết mã sạch và dễ bảo trì cho kỹ sư phần mềm.",
+      "image": "clean-code.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Clean Architecture",
+      "authorId": "1",
+      "author": "Robert C. Martin",
+      "categoryId": "1",
+      "price": 480000,
+      "quantity": 12,
+      "available": 10,
+      "publishedYear": 2017,
+      "description": "Kiến trúc hệ thống phần mềm chuyên nghiệp.",
+      "image": "clean-architecture.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Learning React 2nd Edition",
+      "authorId": "2",
+      "author": "Alex Banks",
+      "categoryId": "1",
+      "price": 350000,
+      "quantity": 20,
+      "available": 18,
+      "publishedYear": 2020,
+      "description": "Thực hành xây dựng Single Page Application hiện đại với React Hooks.",
+      "image": "learning-react.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Mắt Biếc",
+      "authorId": "3",
+      "author": "Nguyễn Nhật Ánh",
+      "categoryId": "4",
+      "price": 110000,
+      "quantity": 25,
+      "available": 24,
+      "publishedYear": 1990,
+      "description": "Tiểu thuyết tình cảm kinh điển của nhà văn Nguyễn Nhật Ánh.",
+      "image": "mat-biec.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+      "authorId": "3",
+      "author": "Nguyễn Nhật Ánh",
+      "categoryId": "4",
+      "price": 125000,
+      "quantity": 30,
+      "available": 28,
+      "publishedYear": 2010,
+      "description": "Bức tranh tuổi thơ nông thôn ấm áp và đầy cảm xúc.",
+      "image": "toi-thay-hoa-vang-tren-co-xanh.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Đắc Nhân Tâm",
+      "authorId": "4",
+      "author": "Dale Carnegie",
+      "categoryId": "5",
+      "price": 98000,
+      "quantity": 40,
+      "available": 36,
+      "publishedYear": 1936,
+      "description": "Nghệ thuật giao tiếp, thấu hiểu và gây ảnh hưởng tích cực.",
+      "image": "dac-nhan-tam.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Quẳng Gánh Lo Đi Và Vui Sống",
+      "authorId": "4",
+      "author": "Dale Carnegie",
+      "categoryId": "5",
+      "price": 95000,
+      "quantity": 18,
+      "available": 16,
+      "publishedYear": 1948,
+      "description": "Giải tỏa căng thẳng và duy trì tinh thần lạc quan.",
+      "image": "quang-ganh-lo-di-va-vui-song.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Sapiens: Lược Sử Loài Người",
+      "authorId": "5",
+      "author": "Yuval Noah Harari",
+      "categoryId": "6",
+      "price": 240000,
+      "quantity": 20,
+      "available": 17,
+      "publishedYear": 2014,
+      "description": "Tiến trình tiến hóa của loài người từ thời kỳ đồ đá đến nay.",
+      "image": "sapiens.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Homo Deus: Lược Sử Tương Lai",
+      "authorId": "5",
+      "author": "Yuval Noah Harari",
+      "categoryId": "6",
+      "price": 250000,
+      "quantity": 16,
+      "available": 14,
+      "publishedYear": 2016,
+      "description": "Khám phá tương lai nhân loại trong kỷ nguyên số.",
+      "image": "homo-deus.jpg"
+    },
+    {
+      "id": "10",
+      "title": "21 Bài Học Cho Thế Kỷ 21",
+      "authorId": "5",
+      "author": "Yuval Noah Harari",
+      "categoryId": "6",
+      "price": 220000,
+      "quantity": 15,
+      "available": 13,
+      "publishedYear": 2018,
+      "description": "Phân tích các thách thức chính trị, công nghệ và xã hội toàn cầu.",
+      "image": "21-bai-hoc-cho-the-ky-21.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Khởi Nghiệp Tinh Gọn",
+      "authorId": "6",
+      "author": "Eric Ries",
+      "categoryId": "2",
+      "price": 175000,
+      "quantity": 22,
+      "available": 19,
+      "publishedYear": 2011,
+      "description": "Phương pháp xây dựng mô hình kinh doanh tinh gọn và kiểm chứng liên tục.",
+      "image": "khoi-nghiep-tinh-gon.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Con Đường Khởi Nghiệp",
+      "authorId": "6",
+      "author": "Eric Ries",
+      "categoryId": "2",
+      "price": 195000,
+      "quantity": 14,
+      "available": 12,
+      "publishedYear": 2017,
+      "description": "Đưa tinh thần khởi nghiệp tinh gọn vào doanh nghiệp quy mô lớn.",
+      "image": "con-duong-khoi-nghiep.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Nhà Giả Kim",
+      "authorId": "7",
+      "author": "Paulo Coelho",
+      "categoryId": "4",
+      "price": 89000,
+      "quantity": 35,
+      "available": 31,
+      "publishedYear": 1988,
+      "description": "Bài học triết lý sâu sắc về việc kiên định theo đuổi ước mơ.",
+      "image": "nha-gia-kim.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Tư Duy Nhanh Và Chậm",
+      "authorId": "8",
+      "author": "Daniel Kahneman",
+      "categoryId": "5",
+      "price": 215000,
+      "quantity": 15,
+      "available": 13,
+      "publishedYear": 2011,
+      "description": "Cách hai hệ thống não bộ tương tác và chi phối các quyết định thường ngày.",
+      "image": "tu-duy-nhanh-va-cham.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Lập Trình Web Với Node.js & Express",
+      "authorId": "2",
+      "author": "Alex Banks",
+      "categoryId": "1",
+      "price": 280000,
+      "quantity": 18,
+      "available": 15,
+      "publishedYear": 2019,
+      "description": "Xây dựng RESTful API chuyên nghiệp với hệ sinh thái Node.js.",
+      "image": "lap-trinh-web-nodejs-express.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Tối Ưu Hóa Cơ Sở Dữ Liệu SQL",
+      "authorId": "1",
+      "author": "Robert C. Martin",
+      "categoryId": "1",
+      "price": 320000,
+      "quantity": 10,
+      "available": 8,
+      "publishedYear": 2016,
+      "description": "Kỹ thuật indexing, phân tích query plan và tối ưu hiệu năng.",
+      "image": "toi-uu-hoa-co-so-du-lieu-sql.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Quản Trị Chiến Lược Doanh Nghiệp",
+      "authorId": "6",
+      "author": "Eric Ries",
+      "categoryId": "2",
+      "price": 210000,
+      "quantity": 14,
+      "available": 11,
+      "publishedYear": 2021,
+      "description": "Định hình tầm nhìn và hoạch định mục tiêu cạnh tranh dài hạn.",
+      "image": "quan-tri-chien-luoc-doanh-nghiep.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Vật Lý Vui Và Khám Phá Vũ Trụ",
+      "authorId": "8",
+      "author": "Daniel Kahneman",
+      "categoryId": "3",
+      "price": 145000,
+      "quantity": 12,
+      "available": 9,
+      "publishedYear": 2015,
+      "description": "Khái niệm vật lý thiên văn trình bày trực quan và dễ tiếp cận.",
+      "image": "vat-ly-vui-va-kham-pha-vu-tru.jpg"
+    },
+    {
+      "id": "19",
+      "title": "Cô Gái Đến Từ Hôm Qua",
+      "authorId": "3",
+      "author": "Nguyễn Nhật Ánh",
+      "categoryId": "4",
+      "price": 105000,
+      "quantity": 25,
+      "available": 22,
+      "publishedYear": 1989,
+      "description": "Câu chuyện học trò trong sáng và hài hước.",
+      "image": "co-gai-den-tu-hom-qua.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Học Cách Nói Không",
+      "authorId": "4",
+      "author": "Dale Carnegie",
+      "categoryId": "5",
+      "price": 85000,
+      "quantity": 20,
+      "available": 17,
+      "publishedYear": 2018,
+      "description": "Bảo vệ ranh giới cá nhân mà không làm tổn thương người khác.",
+      "image": "hoc-cach-noi-khong.jpg"
+    },
+    {
+      "id": "21",
+      "title": "Khoa Học Dữ Liệu Ứng Dụng",
+      "authorId": "2",
+      "author": "Alex Banks",
+      "categoryId": "3",
+      "price": 390000,
+      "quantity": 14,
+      "available": 11,
+      "publishedYear": 2022,
+      "description": "Thu thập, làm sạch và khai phá dữ liệu bằng Python.",
+      "image": "khoa-hoc-du-lieu-ung-dung.jpg"
+    },
+    {
+      "id": "22",
+      "title": "Chiến Tranh Tiền Tệ",
+      "authorId": "6",
+      "author": "Eric Ries",
+      "categoryId": "2",
+      "price": 180000,
+      "quantity": 16,
+      "available": 13,
+      "publishedYear": 2007,
+      "description": "Góc nhìn sâu rộng về các cuộc khủng hoảng tài chính toàn cầu.",
+      "image": "chien-tranh-tien-te.jpg"
+    },
+    {
+      "id": "23",
+      "title": "Cho Tôi Xin Một Vé Đi Tuổi Thơ",
+      "authorId": "3",
+      "author": "Nguyễn Nhật Ánh",
+      "categoryId": "4",
+      "price": 115000,
+      "quantity": 30,
+      "available": 26,
+      "publishedYear": 2008,
+      "description": "Hồi ức sống động về thế giới ngây thơ của trẻ nhỏ.",
+      "image": "cho-toi-xin-mot-ve-di-tuoi-tho.jpg"
+    },
+    {
+      "id": "24",
+      "title": "Kỹ Năng Đàm Phán Đỉnh Cao",
+      "authorId": "4",
+      "author": "Dale Carnegie",
+      "categoryId": "5",
+      "price": 130000,
+      "quantity": 15,
+      "available": 12,
+      "publishedYear": 2013,
+      "description": "Chiến lược thuyết phục và đạt thỏa thuận đôi bên cùng có lợi.",
+      "image": "ky-nang-dam-phan-dinh-cao.jpg"
+    },
+    {
+      "id": "25",
+      "title": "Tái Cấu Trúc Mã Nguồn (Refactoring)",
+      "authorId": "1",
+      "author": "Robert C. Martin",
+      "categoryId": "1",
+      "price": 420000,
+      "quantity": 12,
+      "available": 9,
+      "publishedYear": 2018,
+      "description": "Cải tiến thiết kế của mã nguồn hiện có mà không làm thay đổi hành vi.",
+      "image": "tai-cau-truc-ma-nguon.jpg"
+    }
+  ],
+  "borrowRecords": [
+    {
+      "id": "1",
+      "readerName": "Trần Quang Tú",
+      "readerPhone": "0912345678",
+      "bookId": "1",
+      "borrowDate": "2026-10-15",
+      "returnDate": "2026-10-30",
+      "status": "RETURNED"
+    },
+    {
+      "id": "2",
+      "readerName": "Trần Quang Tú",
+      "readerPhone": "0912345678",
+      "bookId": "3",
+      "borrowDate": "2026-11-01",
+      "returnDate": "2026-11-15",
+      "status": "RETURNED"
+    },
+    {
+      "id": "3",
+      "readerName": "Nguyễn Văn An",
+      "readerPhone": "0987654321",
+      "bookId": "2",
+      "borrowDate": "2026-11-03",
+      "returnDate": "2026-11-18",
+      "status": "APPROVED"
+    },
+    {
+      "id": "4",
+      "readerName": "Lê Thị Mai",
+      "readerPhone": "0901122334",
+      "bookId": "6",
+      "borrowDate": "2026-11-05",
+      "returnDate": "2026-11-20",
+      "status": "APPROVED"
+    },
+    {
+      "id": "5",
+      "readerName": "Phạm Quốc Bảo",
+      "readerPhone": "0934567890",
+      "bookId": "8",
+      "borrowDate": "2026-11-06",
+      "returnDate": "2026-11-21",
+      "status": "APPROVED"
+    },
+    {
+      "id": "6",
+      "readerName": "Hoàng Minh Tuấn",
+      "readerPhone": "0977889900",
+      "bookId": "4",
+      "borrowDate": "2026-10-10",
+      "returnDate": "2026-10-25",
+      "status": "RETURNED"
+    },
+    {
+      "id": "7",
+      "readerName": "Vũ Thu Trang",
+      "readerPhone": "0966554433",
+      "bookId": "11",
+      "borrowDate": "2026-11-02",
+      "returnDate": "2026-11-16",
+      "status": "APPROVED"
+    },
+    {
+      "id": "8",
+      "readerName": "Đặng Hữu Nghĩa",
+      "readerPhone": "0944332211",
+      "bookId": "9",
+      "borrowDate": "2026-11-04",
+      "returnDate": "2026-11-19",
+      "status": "PENDING"
+    },
+    {
+      "id": "9",
+      "readerName": "Ngô Bích Ngọc",
+      "readerPhone": "0922113344",
+      "bookId": "14",
+      "borrowDate": "2026-10-20",
+      "returnDate": "2026-11-04",
+      "status": "OVERDUE"
+    },
+    {
+      "id": "10",
+      "readerName": "Bùi Đức Thịnh",
+      "readerPhone": "0911447788",
+      "bookId": "15",
+      "borrowDate": "2026-11-07",
+      "returnDate": "2026-11-22",
+      "status": "PENDING"
+    },
+    {
+      "id": "11",
+      "readerName": "Đỗ Khánh Linh",
+      "readerPhone": "0933221100",
+      "bookId": "5",
+      "borrowDate": "2026-11-01",
+      "returnDate": "2026-11-15",
+      "status": "APPROVED"
+    },
+    {
+      "id": "12",
+      "readerName": "Võ Hoàng Nam",
+      "readerPhone": "0944556677",
+      "bookId": "7",
+      "borrowDate": "2026-11-05",
+      "returnDate": "2026-11-20",
+      "status": "PENDING"
+    },
+    {
+      "id": "13",
+      "readerName": "Phan Thanh Sơn",
+      "readerPhone": "0988776655",
+      "bookId": "13",
+      "borrowDate": "2026-10-18",
+      "returnDate": "2026-11-02",
+      "status": "OVERDUE"
+    },
+    {
+      "id": "14",
+      "readerName": "Hồ Quỳnh Anh",
+      "readerPhone": "0909090909",
+      "bookId": "16",
+      "borrowDate": "2026-11-06",
+      "returnDate": "2026-11-21",
+      "status": "APPROVED"
+    },
+    {
+      "id": "15",
+      "readerName": "Tạ Quang Huy",
+      "readerPhone": "0918273645",
+      "bookId": "17",
+      "borrowDate": "2026-11-07",
+      "returnDate": "2026-11-22",
+      "status": "PENDING"
+    },
+    {
+      "id": "16",
+      "readerName": "Nguyễn Hoàng My",
+      "readerPhone": "0938475610",
+      "bookId": "18",
+      "borrowDate": "2026-11-03",
+      "returnDate": "2026-11-17",
+      "status": "APPROVED"
+    },
+    {
+      "id": "17",
+      "readerName": "Trịnh Quốc Đạt",
+      "readerPhone": "0976543210",
+      "bookId": "19",
+      "borrowDate": "2026-10-12",
+      "returnDate": "2026-10-27",
+      "status": "RETURNED"
+    },
+    {
+      "id": "18",
+      "readerName": "Mai Văn Phúc",
+      "readerPhone": "0961234567",
+      "bookId": "20",
+      "borrowDate": "2026-11-02",
+      "returnDate": "2026-11-16",
+      "status": "APPROVED"
+    },
+    {
+      "id": "19",
+      "readerName": "Lý Gia Hân",
+      "readerPhone": "0923456789",
+      "bookId": "21",
+      "borrowDate": "2026-11-05",
+      "returnDate": "2026-11-19",
+      "status": "PENDING"
+    },
+    {
+      "id": "20",
+      "readerName": "Lâm Quốc Cường",
+      "readerPhone": "0981122334",
+      "bookId": "22",
+      "borrowDate": "2026-11-04",
+      "returnDate": "2026-11-18",
+      "status": "APPROVED"
+    },
+    {
+      "id": "21",
+      "readerName": "Dương Thùy Dung",
+      "readerPhone": "0972233445",
+      "bookId": "23",
+      "borrowDate": "2026-11-06",
+      "returnDate": "2026-11-20",
+      "status": "APPROVED"
+    },
+    {
+      "id": "22",
+      "readerName": "Thái Vĩnh Khang",
+      "readerPhone": "0943344556",
+      "bookId": "24",
+      "borrowDate": "2026-11-07",
+      "returnDate": "2026-11-21",
+      "status": "PENDING"
+    },
+    {
+      "id": "23",
+      "readerName": "Châu Ngọc Hải",
+      "readerPhone": "0915566778",
+      "bookId": "25",
+      "borrowDate": "2026-11-01",
+      "returnDate": "2026-11-15",
+      "status": "APPROVED"
+    },
+    {
+      "id": "24",
+      "readerName": "Phan Đình Giáp",
+      "readerPhone": "0906677889",
+      "bookId": "1",
+      "borrowDate": "2026-10-25",
+      "returnDate": "2026-11-09",
+      "status": "APPROVED"
+    },
+    {
+      "id": "25",
+      "readerName": "Lê Hồng Phát",
+      "readerPhone": "0937788990",
+      "bookId": "2",
+      "borrowDate": "2026-11-08",
+      "returnDate": "2026-11-22",
+      "status": "PENDING"
+    },
+    {
+      "id": "26",
+      "readerName": "Khách Xem",
+      "readerPhone": "00000000000000000000000000000",
+      "bookId": "1",
+      "borrowDate": "2026-11-09",
+      "returnDate": "2026-11-23",
+      "status": "PENDING"
+    },
+    {
+      "id": "27",
+      "readerName": "sle",
+      "readerPhone": "0877589633",
+      "idCardNumber": "015206005895",
+      "nationalityType": "Việt Nam",
+      "bookId": "1",
+      "borrowDate": "2026-11-09",
+      "returnDate": "2026-11-23",
+      "status": "PENDING"
+    }
+  ]
+}
